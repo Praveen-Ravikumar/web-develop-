@@ -1,0 +1,54 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.main-container{
+    margin:10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap; 
+    height: 100vh;
+    gap: 2rem;
+}    
+
+.pricing-container{
+    flex: 1;
+    max-width: 400px !important;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.price-heading{
+    font-weight: 900;
+}
+
+.pricing-amt{
+    font-size: 3rem;
+    font-weight:900
+}
+
+.list-items{
+    padding-left: 0px;
+    list-style:none;
+    text-align: center;
+}
+.button{
+    background-color: orange;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+}
+
+@media (max-width:1250px){
+    .main-container{
+        flex-direction: column;
+        height: 100%;
+    }
+}

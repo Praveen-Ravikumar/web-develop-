@@ -1,0 +1,36 @@
+.box-size{
+    height: 200px;
+    width: 200px;
+    background-color:aquamarine;
+
+}
+
+/* background-color of the boxes */
+#rojo{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+#anaranjado{
+    background-color: orange;
+}
+#amarillo{
+    background-color: yellow;
+}
+
+
+
+/* color of font */
+#red{
+    color: red;
+}
+#blue{
+    color:blue;
+}
+#orange{
+    color: orange;
+}
+#yellow{
+    color: yellow;
+}

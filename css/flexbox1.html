@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox1</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+        }
+        .container{
+            display: inline-flex;
+            gap: 20px;
+        }
+       
+        @media(max-width:360px){
+            .container{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">SERIVCE</a></li>
+        <li><a href="#">PROGRAMME</a></li>
+
+</div>
+</body>
+</html>

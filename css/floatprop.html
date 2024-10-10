@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOAT property</title>
+    <style>
+        .rightblock{
+            float: left;
+            display: inline;
+
+        }
+        .rightblock p{
+            display: inline-block;
+            height: auto;
+            width: 300px;
+        }
+        .rightblock img{
+            display: block;
+        }
+
+        .leftblock{
+            float:right;
+            display: inline;
+        }
+
+        .leftblock p{
+            display: inline-block;
+            height: auto;
+            width: 300px;
+        }
+        .leftblock img{
+            display: block;
+        }
+        footer {
+            text-align: center;
+            background-color: violet;
+            clear:both;
+            margin: 0;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="rightblock">
+        <img src="../images/Sports_Car.jpg" alt="car" style="height:auto ;width:300px ; opacity: 25%;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus nemo ipsum placeat a illum eius iusto magni tenetur soluta corporis dolorem autem, totam repellat quia quisquam similique, odit repellendus.</p>
+
+    </div>
+    <div class="leftblock">
+        <img src="../images/Sports_Car.jpg" alt="car" height="auto" width="300px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde delectus nemo ipsum placeat a illum eius iusto magni tenetur soluta corporis dolorem autem, totam repellat quia quisquam similique, odit repellendus.</p>
+    </div>
+    <footer>
+        <p>@copyrights appbrewery</p>
+    </footer>
+</body>
+</html>

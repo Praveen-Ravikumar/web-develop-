@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .barrier{
+            border: 1px solid black;
+            color: yellow;
+            font-size: 3rem;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: inline;
+            margin: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello</h1>
+
+    <button class="button">click</button>
+    <button class="button">click</button>
+    <button class="button">click</button>
+    <button class="button">click</button>
+    <button class="button">click</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $("h1").addClass("barrier");
+       setTimeout(function(){
+        $(".button").css("display","block")
+        $(".button").html("<em>submit</em>");
+       },1000); 
+        
+
+    
+    </script>
+</body>
+</html>
